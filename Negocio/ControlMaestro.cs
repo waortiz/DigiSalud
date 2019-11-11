@@ -8,13 +8,18 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class MaestroNegocio
+    public class ControlMaestro
     {
         IMaestroRepositorio repositorio = new MaestroRepositorio();
 
         public List<TipoDocumento> ObtenerTiposDocumento()
         {
             return repositorio.ObtenerTiposDocumento();
+        }
+
+        public List<Ciudad> ObtenerCiudades()
+        {
+            return repositorio.ObtenerCiudades();
         }
     }
 }

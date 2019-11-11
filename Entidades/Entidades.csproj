@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ciudad.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Sexo.cs" />
     <Compile Include="TipoDocumento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

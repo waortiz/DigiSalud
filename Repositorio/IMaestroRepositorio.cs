@@ -6,5 +6,6 @@ namespace Repositorio
     public interface IMaestroRepositorio
     {
         List<TipoDocumento> ObtenerTiposDocumento();
+        List<Ciudad> ObtenerCiudades();
     }
 }
